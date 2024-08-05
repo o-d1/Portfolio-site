@@ -150,15 +150,35 @@ h3 {
     margin: 0px;
     height: 10vh;
 }
-.projects.img {
-    background-color: red;
-    width: 30vw;
-    height: 30vh;
-    border: 5px solid;
-    display: flex;
-    margin: 0 auto;
+#projectors {
+    display: inline;
+    padding: 0 3em;
+    border-radius: 2rem;
 }
-#converter, #lotto, #changer {
-    display: flex;
-    margin: 0 auto;
+.project {
+    flex: 1;
+    background-color: rgb(105, 118, 231);
+    margin: 3em;
+    padding: 2em;
+    border-radius: 1rem;
+    width: 40vw;
+    border: 5px;
+    height: 30vh;
+    border-color: gray;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    color: white;
+}
+.project a {
+    text-decoration: none;
+    color: orange;
+    font-size: 1.3rem;
+}
+.project a:hover {
+    text-decoration: underline;
+}
+.tester {
+    max-width: 13vw;
+    text-align: center;
 }
